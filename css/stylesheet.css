@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppin);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 241, 255);
+}
+
+.header{
+    width: 100%;
+    margin: auto;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: rgb(21, 144, 245);
+    cursor: pointer;
+}
+
+.socialmediaicon{
+    display: flex;
+    align-items: center;
+}
+
+.socialmediaicon img{
+    width: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.socialmediaicon a{
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: rgb(21, 144, 245);
+    border: solid 2px rgb(21, 144, 245);
+    border-radius: 10px;
+}
+
+.navbar{
+    width: 100%;
+    overflow: auto;
+    background-color:  rgb(21, 144, 245);
+}
+
+.navigation a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width:20%;
+    text-align: center;
+    font-weight:500;
+}
+
+.navigation a:hover{
+    background-color: rgb(36, 154, 250);
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .socialmediaicon img{
+        visibility: hidden;
+    }
+}

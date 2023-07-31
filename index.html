@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <title>Tech Mentor</title>
+</head>
+<body>
+    <img src="/img/icons8-up-48.png" alt="" onclick="topFunction()" id="myBtn" title="Go to top">
+    
+    <!--heading section-->
+
+    <div class="header">
+        <h1 class="logo">TECH MENTOR</h1>
+        <nav class="socialmediaicon">
+            <img src="img/icon-facebook.png" alt="icon-facebook">
+            <a href="#">Register</a>
+        </nav>
+    </div>
+
+    <!--navigation bar-->
+    <div class="navbar">
+    <nav class="navigation">
+        <a href="#">COURSE</a>
+        <a href="#">OFFERS</a>
+        <a href="#">NEWS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACTS</a>
+    </nav>
+    </div>
+
+    <!--main banner-->
+    <div class="banner">
+        <div class="banner-content">
+            <h1>KNOWLADGE IS POWER.<br>WE ARE THE POWER.</h1>
+
+            <p>Build skills with courses, certificates and degrees online from world-class universities and companies.</p>
+
+            <a href="">APPLY ONLINE</a>
+        </div>
+        <div class="banner-image" style="background-image: url(img/mainpost.png);">
+        </div>
+    </div>
+
+    <!--course section-->
+    <div class="course-section">
+        <h2 id="course">COURSE</h2>
+        <div class="coursecard-col">
+            <div class="course-card">
+                <div class="course-card-1">
+                    <div class="course-card-2">
+                        <img src="img/ui.jpg" alt="">
+                    </div>
+                    <p>Biginner Course</p>
+                </div>
+                <p><a href="">UI/UX Designer</a></p>
+            </div>
+            <div class="course-card">
+                <div class="course-card-1">
+                    <div class="course-card-2">
+                        <img src="img/front.jpg" alt="">
+                    </div>
+                    <p>Biginner Course</p>
+                </div>
+                <p><a href="">Front End Programming</a></p>
+            </div>
+            <div class="course-card">
+                <div class="course-card-1">
+                    <div class="course-card-2">
+                        <img src="img/full.jpg" alt="">
+                    </div>
+                    <p>Advance Course</p>
+                </div>
+                <p><a href="">Full Stack Development</a></p>
+            </div>
+            <div class="course-card">
+                <div class="course-card-1">
+                    <div class="course-card-2">
+                        <img src="img/3d.jpg" alt="">
+                    </div>
+                    <p>Advance Course</p>
+                </div>
+                <p><a href="">3D Modeling Designer</a></p>
+            </div>
+            <div class="course-card">
+                <div class="course-card-1">
+                    <div class="course-card-2">
+                        <img src="img/back.jpg" alt="">
+                    </div>
+                    <p>Biginner Course</p>
+                </div>
+                <p><a href="">Back End Programming</a></p>
+            </div>
+            <div class="course-card">
+                <div class="course-card-1">
+                    <div class="course-card-2">
+                        <img src="img/fash.jpg" alt="">
+                    </div>
+                    <p>Biginner Course</p>
+                </div>
+                <p><a href="">Fashion Designer</a></p>
+            </div>
+        </div>
+    
+        <!--news section-->
+        <h2 id="news">NEWS</h2>
+        <div class="newscard-col">
+            <div class="news-card">
+                <div class="news-card-1">
+                    <div class="news-card-2">
+                        <img src="img/news1.jpg" alt="">
+                    </div>
+                </div>
+                <p><a href="">PROOF POINTS: Putting praise to the test</a></p>
+            </div>
+            <div class="news-card">
+                <div class="news-card-1">
+                    <div class="news-card-2">
+                        <img src="img/news2.jpg" alt="">
+                    </div>
+                </div>
+                <p><a href="">Java App Development Tournamant on September 06</a></p>
+            </div>
+            <div class="news-card">
+                <div class="news-card-1">
+                    <div class="news-card-2">
+                        <img src="img/news3.jpeg" alt="">
+                    </div>
+                </div>
+                <p><a href="">KARINA Facion Design Festival Coming Soon</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2023 Techmentor.com. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
