@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(222, 241, 255);
+    background-color: rgb(233, 243, 250);
 }
 
 .header{
@@ -23,6 +23,12 @@ body{
 .logo{
     color: rgb(21, 144, 245);
     cursor: pointer;
+    font-size: xx-large;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(21, 144, 245);
 }
 
 .socialmediaicon{
@@ -39,6 +45,7 @@ body{
 .socialmediaicon a{
     text-decoration: none;
     font-weight: 500;
+    font-size: medium;
     padding: 5px 10px;
     color: rgb(21, 144, 245);
     border: solid 2px rgb(21, 144, 245);
@@ -56,17 +63,36 @@ body{
     padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: medium;
     width:20%;
     text-align: center;
     font-weight:500;
+    transition: 0.5s;
 }
 
 .navigation a:hover{
     background-color: rgb(36, 154, 250);
 }
 
+footer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+    visibility: visible;
+}
+
+/* Center the copyright text */
+footer p {
+    margin: 0;
+}
+
 @media screen and (max-width: 500px) {
+    .logo{
+        font-size: large;
+    }
     .navbar a {
         float: none;
         display: block;
@@ -74,6 +100,12 @@ body{
         text-align: left;
     }
     .socialmediaicon img{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    footer{
         visibility: hidden;
     }
 }

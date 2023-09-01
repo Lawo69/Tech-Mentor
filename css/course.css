@@ -1,0 +1,82 @@
+.category{
+    overflow: hidden;
+    padding: 50px 250px;
+    font-size: 15px;
+}
+
+.category .cat1{
+    border: 2px solid rgb(21, 144, 245);
+    padding: 20px 100px;
+    border-radius: 50px;
+    color: rgb(21, 144, 245);
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    transition: 0.5s;
+}
+
+.category .cat1:hover{
+    background-color: rgb(21, 144, 245);
+    color: white;
+}
+
+.category .cat2{
+    border: 2px solid rgb(21, 144, 245);
+    padding: 20px 75px;
+    border-radius: 50px;
+    color: rgb(21, 144, 245);
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    transition: 0.5s;
+}
+
+.category .cat2:hover{
+    background-color: rgb(21, 144, 245);
+    color: white;
+}
+
+.post1{
+    float: left;
+    padding: 10px;
+
+}
+.post1:hover{
+
+}
+.post{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+.post img{
+    width: 320px;
+    height: 180px;
+    border-radius: 25px 0px 25px 25px;
+}
+
+.title{
+    overflow: hidden;
+    padding: 40px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title h1{
+    color: rgb(22, 144, 245);
+    text-decoration: none;
+    line-height: 20px;
+    text-align: left;
+}
+
+.title p{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    text-align: justify;
+}
