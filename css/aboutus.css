@@ -1,0 +1,104 @@
+.vision{
+    overflow: hidden;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    background-color: rgb(21, 144, 245);
+    border-radius: 25px;
+}
+
+.vision h1{
+    text-align: center;
+    color: rgb(48, 48, 48);
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.vision p{
+    text-align: center;
+    color: rgb(48, 48, 48);
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro{
+    overflow: hidden;
+    padding: 20px 150px;
+}
+
+.intro p{
+    text-align: left;
+    color: rgb(48, 48, 48);
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.intro img{
+    float:right;
+    width: 500px;
+    height: 100px;
+}
+
+.mision{
+    overflow: hidden;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    background-color: rgb(21, 144, 245);
+    border-radius: 25px;
+}
+
+.mision h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    line-height: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mision p{
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.story{
+    overflow: hidden;
+    padding: 20px 20px;
+}
+
+.story h1{
+    text-align:left;
+    color: rgb(48, 48, 48);
+    padding-bottom: 15px;
+    line-height: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.story p{
+    text-align: left;
+    color: rgb(48, 48, 48);
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0px 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .intro{
+        overflow: hidden;
+        padding: 0px;
+        visibility: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .intro{
+        overflow: hidden;
+        padding: 0px;
+        visibility: hidden;
+    }
+  }

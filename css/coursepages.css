@@ -4,8 +4,8 @@
 }
 
 .coursecover img{
-    width: 1330px;
-    height: 320px;
+    width: 100%;
+    height: auto;
     border-radius: 0px 0px 50px 50px;
 }
 
@@ -32,7 +32,8 @@
 
 .apply{
     overflow: hidden;
-    padding: 40px 500px;
+    display: flex;
+    justify-content: center;
 
 }
 

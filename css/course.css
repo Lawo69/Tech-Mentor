@@ -2,6 +2,7 @@
     overflow: hidden;
     padding: 50px 250px;
     font-size: 15px;
+    visibility: visible;
 }
 
 .category .cat1{
@@ -48,6 +49,7 @@
     padding-left: 30px;
     padding-bottom: 40px;
     float: left;
+    visibility: visible;
 }
 
 .post img{
@@ -81,3 +83,69 @@
     text-decoration: none;
     text-align: justify;
 }
+
+@media screen and (max-width: 500px) {
+    .category{
+        visibility: hidden;
+        padding: 0;
+        font-size: 0px;
+    }
+    .post1{
+        float: none;
+        padding: 0px;
+    
+    }
+    .post{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        float: none;
+        visibility: hidden;
+    }
+    .title{
+        overflow: hidden;
+        padding: 00px 30px;
+    }
+    .post img{
+        width: 0px;
+        height: 0px;
+    }
+
+    .title h1{
+        line-height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .category{
+        visibility: hidden;
+        padding: 0;
+        font-size: 0px;
+    }
+    .post1{
+        float: none;
+        padding: 0px;
+    }
+    .title h1{
+        line-height: 40px;
+    }
+
+    .post img{
+        width: 0px;
+        height: 0px;
+    }
+
+    .post{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        float: none;
+        visibility: hidden;
+    }
+    .title{
+        overflow: hidden;
+        padding: 00px 30px;
+    }
+  }
+
+  

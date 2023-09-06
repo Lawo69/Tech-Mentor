@@ -1,0 +1,44 @@
+.contact{
+    margin: 40px 40px;
+    box-shadow: 0 12px 10px 0 rgba(48, 48, 48, 0.24),0 10px 50px 0 rgba(48, 48, 48, 0.19);
+}
+
+.title{
+    padding: 50px;
+}
+
+.titlecontact h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 100px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+.title h1{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(48, 48, 48);
+    padding-bottom: 5px;
+}
+
+.title p{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(48, 48, 48);
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .titlecontact h1{
+        font-size: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .titlecontact h1{
+        font-size: 50px;
+    }
+  }

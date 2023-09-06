@@ -1,4 +1,8 @@
 .offerpost{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
 }
 
@@ -36,3 +40,50 @@
     text-align: left;
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .offerpost{
+        height: auto;
+        display: block;
+        padding: 20px;
+    }
+
+    .offertitle h1{
+        line-height: 75px;
+        font-size: 50px;
+        text-align: left;
+        padding-bottom: 25PX;
+    }
+
+    .offertitle{
+        overflow: hidden;
+        padding: 40px 30px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .offerpost{
+        height: auto;
+        display: block;
+        padding: 20px;
+    }
+
+    .offerphoto img{
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    .offertitle h1{
+        line-height: 75px;
+        font-size: 50px;
+        text-align: left;
+        padding-bottom: 25PX;
+    }
+
+    .offertitle{
+        overflow: hidden;
+        padding: 40px 30px;
+    }
+  }

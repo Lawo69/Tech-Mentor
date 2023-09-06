@@ -1,0 +1,32 @@
+.newsinfo{
+    overflow: hidden;
+    padding: 40px 40px;
+}
+
+.newsinfo h1{
+    color: rgb(22, 144, 245);
+    line-height: 20px;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.newsinfo h2{
+    color: rgb(48, 48, 48);
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.newsinfo p{
+    color: rgb(48, 48, 48);
+    text-align: justify;
+
+}
+
+.newsinfo img{
+    width: 600px;
+    height: 300px;
+    float: right;
+    padding: 10px 0px 10px 20px;
+}
