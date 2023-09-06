@@ -1,0 +1,67 @@
+.coursecover{
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.coursecover img{
+    width: 1330px;
+    height: 320px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.info{
+    overflow: hidden;
+    padding: 10px 40px;
+}
+
+.info h1{
+    color: rgb(22, 144, 245);
+    text-decoration: none;
+    line-height: 20px;
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.info p{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    text-align: justify;
+
+}
+
+.apply{
+    overflow: hidden;
+    padding: 40px 500px;
+
+}
+
+.apply a{
+    border: 2px solid rgb(21, 144, 245);
+    padding: 20px 75px;
+    border-radius: 50px;
+    color: rgb(21, 144, 245);
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    transition: 0.5s;
+}
+
+.apply a:hover{
+    background-color: rgb(21, 144, 245);
+    color: white;
+}
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}

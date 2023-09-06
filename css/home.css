@@ -220,9 +220,20 @@
     position: relative;
     width: 100%;
     height: 20vh;
-    background-color: #555;
     visibility: visible;
 }
+.add{
+    display: flex;
+    justify-content: center;
+}
+
+.add img{
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
+    cursor: pointer;
+}
+
 
 #myBtn {
     display: none;

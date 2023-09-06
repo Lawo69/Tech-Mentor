@@ -41,9 +41,7 @@
     padding: 10px;
 
 }
-.post1:hover{
 
-}
 .post{
     overflow: hidden;
     padding-top: 40px;
@@ -55,13 +53,12 @@
 .post img{
     width: 320px;
     height: 180px;
-    border-radius: 25px 0px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .title{
     overflow: hidden;
     padding: 40px 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title a{
@@ -70,9 +67,13 @@
 
 .title h1{
     color: rgb(22, 144, 245);
-    text-decoration: none;
     line-height: 20px;
     text-align: left;
+    padding-bottom: 15px;
+}
+
+.title h1:hover{
+    color: rgb(25, 118, 194);
 }
 
 .title p{
