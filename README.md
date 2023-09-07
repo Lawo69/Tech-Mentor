@@ -44,4 +44,4 @@ This project is open-source and available under the MIT License - see the [LICEN
 
 ---
 
-![Tech Mentor University Logo](/img/logo.png)
+![Tech Mentor University Logo](/img/logo.PNG)
