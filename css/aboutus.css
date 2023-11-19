@@ -1,49 +1,7 @@
-.vision{
-    overflow: hidden;
-    padding: 20px 20px;
-    margin: 20px 20px;
-    background-color: rgb(21, 144, 245);
-    border-radius: 25px;
-}
-
-.vision h1{
-    text-align: center;
-    color: rgb(48, 48, 48);
-    line-height: 20px;
-    font-weight: bold;
-    padding-bottom: 15px;
-}
-
-.vision p{
-    text-align: center;
-    color: rgb(48, 48, 48);
-    line-height: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.intro{
-    overflow: hidden;
-    padding: 20px 150px;
-}
-
-.intro p{
-    text-align: left;
-    color: rgb(48, 48, 48);
-    line-height: 20px;
-    font-size: 15px;
-}
-
-.intro img{
-    float:right;
-    width: 500px;
-    height: 100px;
-}
-
 .mision{
     overflow: hidden;
-    padding: 20px 20px;
-    margin: 20px 20px;
+    padding: 50px;
+    margin: 50px;
     background-color: rgb(21, 144, 245);
     border-radius: 25px;
 }
@@ -62,17 +20,46 @@
     color: white;
     line-height: 20px;
     font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.vision{
+    overflow: hidden;
+    padding: 50px;
+    margin: 50px;
+    border: 2px solid rgb(21, 144, 245);
+    border-radius: 25px;
+}
+
+.vision h1{
+    text-align: center;
+    color: rgb(21, 144, 245);
+    padding-bottom: 15px;
+    line-height: 20px;
+    font-size: 30px;
     font-weight: bold;
+}
+
+.vision p{
+    text-align: center;
+    color:  rgb(21, 144, 245);
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
 }
 
 .story{
     overflow: hidden;
-    padding: 20px 20px;
+    padding: 50px;
+    margin: 50px;
+    border: 2px solid rgb(21, 144, 245);
+    border-radius: 25px;
 }
 
 .story h1{
-    text-align:left;
-    color: rgb(48, 48, 48);
+    color:  #555;
     padding-bottom: 15px;
     line-height: 20px;
     font-size: 30px;
@@ -81,10 +68,11 @@
 
 .story p{
     text-align: left;
-    color: rgb(48, 48, 48);
-    line-height: 30px;
+    color:  #555;
+    line-height: 20px;
     font-size: 20px;
-    padding: 0px 40px;
+    font-weight: normal;
+    line-height: normal;
 }
 
 @media screen and (max-width: 500px) {
