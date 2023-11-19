@@ -1,6 +1,7 @@
 .contact{
     margin: 40px 40px;
-    box-shadow: 0 12px 10px 0 rgba(48, 48, 48, 0.24),0 10px 50px 0 rgba(48, 48, 48, 0.19);
+    border: 2px solid rgb(21, 144, 245);
+    border-radius: 25px;
 }
 
 .title{
